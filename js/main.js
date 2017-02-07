@@ -58,6 +58,7 @@ $(document).ready(function() {
         pagination: false,
         mouseDrag: false,
         touchDrag: false,
+		responsive:true,
         responsive: {
             0: {
                 items: 1
@@ -65,14 +66,17 @@ $(document).ready(function() {
             600: {
                 items: 1
             },
-            1000: {
+            800: {
+                items: 1
+            }, 
+			1000: {
                 items: 1
             }
         }
 
     });
 
-    $('.FunfactSec').parallax({imageSrc: 'images/bg2.jpg'});
+    /* $('.FunfactSec').parallax({imageSrc: 'images/bg2.jpg'}); */
     /*Typed Carosul start*/
 
     $(function() {

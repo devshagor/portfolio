@@ -198,8 +198,11 @@
 }
 .AboutImg img{
     border: 6px solid #eeeeee;
-    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
     box-shadow: 1px 0 39px 1px;
+    -moz-box-shadow: 1px 0 39px 1px;
+    -webkit-box-shadow: 1px 0 39px 1px;
     height: 100%;
     overflow: hidden;
     padding: 0;
@@ -436,8 +439,9 @@
     height: 100%;
     position: relative;
     overflow: hidden;
-    /*    background: url(../images/bg2.jpg) no-repeat center center / cover;*/
+    background: url(../images/bg2.jpg) no-repeat center center / cover;
     color: #fff;
+	background-attachment:fixed;
     padding: 0 0 92px;
 }
 .factComm h2,.factComm p{
