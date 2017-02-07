@@ -1,0 +1,1327 @@
+/*==========================
+/MainMenu Section Start here
+=============================*/
+
+.MainMenuSec{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: url(../images/a.jpg) no-repeat center center / cover;
+    padding: 100px 0 0;
+}
+.Menufixed{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: transparent;
+    z-index: 999;
+}
+.logo{
+    font-family: "lato";
+    height: 100%;
+    padding: 13px 0;
+    width: 100%;
+}
+.logo a{
+    font-size: 41px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.logo span{
+    background: #CC6699 none repeat scroll 0 0;
+    margin-left: 4px;
+    padding: 0 3px 4px 4px;
+    text-transform: capitalize;
+}
+.MainMenu{
+    width: 100%;
+    height: 100%;
+}
+.MainMenu ul{
+    margin: 0;
+    padding: 0;
+}
+.MainMenu ul li{
+    cursor: pointer;
+    display: inline-block;
+    padding: 29px 14px 32px 13px;
+}
+.MainMenu ul li:last-child{
+    padding-right: 0;
+}
+.MainMenu ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #CC6699;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0;
+    text-transform: uppercase;;
+}
+.MainMenu ul li.active{
+    background: #CC6699;
+}
+.MainMenu ul li a:hover,.MainMenu ul li.active a{
+    color: #fff;
+}
+.MainHeaderContent{
+    height: 100%;
+    padding: 127px 0 0;
+    width: 100%;
+}
+.MainHeaderContent h2{
+    color: #fff;
+    font-family: "Raleway",sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+    padding-bottom: 19px;
+    text-transform: uppercase;
+}
+.MainHeaderContent p{
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.pcon{
+    padding: 0 43px;
+    position: relative;
+}
+.pcon:after{
+    background: #CC6699 none repeat scroll 0 0;
+    content: "";
+    height: 8px;
+    position: absolute;
+    right: 13px;
+    top: 8px;
+    transform: rotate(45deg);
+    width: 8px;
+}
+.pcon:before{
+    background: #CC6699 none repeat scroll 0 0;
+    content: "";
+    height: 8px;
+    left: 18px;
+    position: absolute;
+    top: 8px;
+    transform: rotate(45deg);
+    width: 8px;
+}
+.HeaderBtn{
+    padding: 44px 0;
+}
+.HBtn{
+    background: #CC6699 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    padding: 9px 33px 8px 29px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .8s;
+}
+.HBtn:hover{
+    color: #CC6699;
+    background: #fff;
+}
+.HBtnTwo{
+    margin-left: 19px;
+    background: transparent;
+    border: 1px solid #CC6699;
+}
+.HBtnTwo:hover{
+    background: #CC6699;
+    color: #fff;
+}
+.scrol{
+    padding: 112px 0 48px;
+}
+.scrol a{
+    color: #807f7d;
+    font-size: 30px;
+    height: 50px;
+    padding: 9px 0;
+    text-align: center;
+    width: 50px;
+    position: relative;
+    transition: .8s;
+}
+.scrol a:before{
+    position: absolute;
+    content: '';
+    border: 1px solid #bdbcbc;
+    left: 0;
+    top: 0;
+    transform: rotate(45deg);
+    width: 50px;
+    height: 50px;
+}
+.scrol a:hover i{
+    color: #fff;
+    position: relative;
+}
+.scrol a:hover:before{
+    background: #CC6699;
+    color: #fff;
+    border: 1px solid #CC6699;
+}
+/*==========================
+/MainMenu Section End here
+=============================*/
+
+/*==========================
+/AboutSec Section start here
+=============================*/
+.CommonContent {
+    padding: 20px 0 0;
+}
+.CommonContent > p {
+    padding: 5px 0 0;
+}
+#AboutSec{
+    transition: .8s;
+    transition-timing-function: linear;
+}
+.AboutSec{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 80px 0
+}
+.AboutImg{
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 260px;
+}
+.AboutImg img{
+    border: 6px solid #eeeeee;
+    border-radius: 50%;
+    box-shadow: 1px 0 39px 1px;
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+.AboutTab{
+    height: 100%;
+    padding: 59px 0 0;
+    width: 100%;
+}
+.TabsMenu{
+    width: 100%;
+    height: 100%;
+}
+.nav-tabs {
+    border-bottom: 1px solid #f00;
+}
+.TabsMenu ul li{}
+.TabsMenu li a{
+    background: #f7465b none repeat scroll 0 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    border-color: #f00 #f00 transparent;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #fff;
+    border-color: #f00 #f00 transparent;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    color: #555;
+}
+.tabContentBody{
+    width: 100%;
+    height: 100%;
+}
+.TabPanelOne{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #f00;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    padding: 20px 0 19px 20px;
+}
+.TabPanelOne h2{
+    color: #333;
+    font-size: 18px;
+    padding: 0 0 10px;
+    text-transform: uppercase;
+}
+.TabPanelOne span{
+    background: #f7465b none repeat scroll 0 0;
+    display: block;
+    height: 3px;
+    width: 70px;
+}
+.TabPanelOne h3{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 9px 0 0;
+}
+.TabPanelOne p{
+    line-height: 26px;
+    padding: 9px 0 0 0;
+}
+.TabPanelTwo p{
+    padding: 9px 0 0;
+}
+.TabPanelTwo p span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 8px 0 0;
+    background: transparent;
+}
+.TabPanelThree p{
+    padding: 9px 0 0;
+}
+.Info{
+    height: 100%;
+    padding: 60px 0 0;
+    width: 100%;
+}
+.InfoTitle h2{
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.InfoTitle span{
+    background: #f7465b none repeat scroll 0 0;
+    display: block;
+    height: 3px;
+    width: 70px;
+    margin: 0 auto;
+}
+.InfoCon{
+    padding: 11px 0 0;
+}
+.InfoCon p{
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 8px 0 0;
+    text-transform: capitalize;
+}
+.InfoCon span{
+    font-weight: 300;
+}
+/*==========================
+/AboutSec Section End here
+=============================*/
+
+/*==========================
+/HairSec Section start here
+=============================*/
+.HairSec{
+    background: #f7465b none repeat scroll 0 0;
+    color: #fff;
+    height: 100%;
+    overflow: hidden;
+    padding: 80px 0;
+    position: relative;
+    width: 100%;
+}
+.HairBtn {
+    padding-top: 40px;
+}
+.HairCon h2{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+.HairCon a{
+    border: 1px solid #fff;
+    color: #fff;
+    display: inline-block;
+    padding: 9px 26px 12px 25px;
+    text-transform: uppercase;
+    transition: .8s;
+}
+.HairCon i{
+    margin-right: 7px;
+}
+.HairBtnone:hover{
+    background: #fff;
+    color: #000;
+}
+.HairBtnTwo{
+    margin-left: 21px;
+}
+.HairBtnTwo:hover{
+    background: #000;
+    color: #fff;
+    border-color: #000;
+}
+/*==========================
+/HairSec Section End here
+=============================*/
+
+/*==========================
+/HowDoSec Section End here
+=============================*/
+.HowDoSec{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 0 0 80px;
+}
+.HowDoOne {
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+.SingleHowDo{
+    width: 100%;
+    height: 100%;
+}
+.SingleHowDo i{
+    font-size: 46px;
+}
+.SingleHowDo h2{
+    font-size: 26px;
+    padding: 19px 0 9px;
+    text-transform: uppercase;
+}
+.SingleHowDo span{
+    background: #f7465b none repeat scroll 0 0;
+    display: block;
+    height: 3px;
+    width: 70px;
+}
+.SingleHowDo p{
+    font-size: 16px;
+    font-weight: 300;
+    padding: 11px 21px 0 0;
+}
+.HowDoImg{
+    width: 100%;
+    height: 100%;
+}
+.HowDoImg img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+/*==========================
+/HowDoSec Section End here
+=============================*/
+
+/*==========================
+/FunfactSec Section Start here
+=============================*/
+.FunfactSec{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    /*    background: url(../images/bg2.jpg) no-repeat center center / cover;*/
+    color: #fff;
+    padding: 0 0 92px;
+}
+.factComm h2,.factComm p{
+    color: #fff;
+}
+.SingleFact{
+    height: 100%;
+    padding: 40px 0 0;
+    width: 100%;
+}
+.SingleFact i{
+    font-size: 50px;
+}
+.SingleFact h2{
+    font-size: 66px;
+    font-weight: 400;
+    padding: 7px 0 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.SingleFact span{
+    background: #f7465b none repeat scroll 0 0;
+    display: block;
+    height: 3px;
+    width: 70px;
+    margin: 0 auto;
+}
+.SingleFact p{
+    font-size: 20px;
+    padding: 12px 0 0;
+    text-transform: capitalize;
+}
+/*==========================
+/FunfactSec Section End here
+=============================*/
+
+/*==========================
+/FunfactSec Section End here
+=============================*/
+.WhatCanSec{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 0 0 97px;
+}
+.SingleWhCan{
+    width: 100%;
+    height: 100%;
+}
+.SingleWhCSix{
+    padding: 51px 0 0;
+}
+.SingleWhCan:hover.SingleWhCan a:after{
+    visibility: visible;
+    opacity: 1;
+}
+.SingleWhCan:hover.SingleWhCan a{
+    background: #f7465b;
+}
+.SingleWhCan:hover.SingleWhCan i{
+    color: #fff;
+}
+.SingleWhCan a{
+    width: 100px;
+    height: 100px;
+    background: #f2f2f2;
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    transition: .8s;
+}
+.SingleWhCan a:after{
+    background: transparent none repeat scroll 0 0;
+    border: 5px solid #F7465B;
+    border-radius: 50%;
+    bottom: 0;
+    content: "";
+    height: 120px;
+    left: -10px;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 120px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .8s;
+}
+.SingleWhCan i{
+    color: #333;
+    font-size: 45px;
+    margin-top: 25px;
+    transition: .6s;
+    background: transparent;
+}
+.SingleWhCan h2{
+    font-size: 18px;
+    padding: 20px 0 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.SingleWhCan p{
+    font-size: 17px;
+    font-weight: 300;
+}
+/*==========================
+/FunfactSec Section End here
+=============================*/
+
+/*==========================
+/FunfactSec Section End here
+=============================*/
+.MyServiceSec{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background: url(../images/bg3.jpg) no-repeat center center / cover;
+    padding: 0 0 120px;
+}
+.ServiceBtn{
+    height: 100%;
+    padding: 9px 0 0;
+    width: 100%;
+}
+.ServiceBtn a{
+    color: #fff;
+    padding: 9px 26px 12px 25px;
+    text-transform: uppercase;
+    background: #f7465b;
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.8s ease 0s;
+}
+.ServiceBtn a:hover{
+    background: #333;
+    color: #f7465b
+}
+/*==========================
+/FunfactSec Section End here
+=============================*/
+
+/*==========================
+/ExpreienceSec Section Start here
+=============================*/
+.ExpreienceSec{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 0 0 80px;
+}
+.ExPPartOne{
+    height: 231px;
+    padding-left: 34px;
+    padding-top: 5px;
+    position: relative;
+    width: 100%;
+}
+.ExPOne{
+    padding-top: 0;
+}
+.ExPPartOne:after{
+    background: #F7465B none repeat scroll 0 0;
+    content: "";
+    height: 183px;
+    position: absolute;
+    right: 44px;
+    top: 46px;
+    width: 2px;
+}
+.ExPTwo{
+    padding-top: 6px;
+}
+.ExPTwo:after{
+    top: 54px;
+}
+.ExPThree{
+    padding-top: 13px;
+}
+.ExPThree:after{
+    top: 59px;
+}
+.ExPFour{
+    padding-top: 19px;
+}
+.ExPFour:after{
+    top: 66px;
+}
+.ExPFive{
+    padding-top: 26px;
+}
+.ExPFive:after{
+    top: 72px;
+}
+.ExPSix{
+    padding-top: 32px;
+}
+.ExPSix:after{
+    top: 80px;
+    height: 150px;
+}
+.ExPPartOne h2{
+    background: #F7465B none repeat scroll 0 0;
+    color: #fff;
+    float: left;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    padding: 5px 20px 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.ExPPartOne h4{
+    float: left;
+    height: 55px;
+    margin-left: 31px;
+    position: relative;
+    width: 55px;
+}
+.ExPPartOne h4:after{
+    border: 1px solid #F7465B;
+    content: "";
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: rotate(45deg);
+    width: 40px;
+}
+.ExPPartOne h4 i{
+    bottom: 0;
+    color: #F7465B;
+    font-size: 25px;
+    height: 100%;
+    left: -15px;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 16px;
+    width: 100%;
+}
+
+.ExPartTwoRight{
+    border: 1px solid #dddddd;
+    height: 100%;
+    margin: 39px 0 0;
+    padding: 20px 0 32px 20px;
+    position: relative;
+    width: 100%;
+}
+.ExPartTwoRight:after{
+    border-color: transparent #dddddd transparent transparent;
+    border-style: solid;
+    border-width: 7.5px 10px 7.5px 0;
+    content: "";
+    height: 0;
+    left: -11px;
+    position: absolute;
+    top: 21px;
+    width: 0;
+
+}
+.Oe{
+    margin: 0;
+}
+.ExPartTwoRight h2{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.ExPartTwoRight span{
+    background: #f7465b none repeat scroll 0 0;
+    display: block;
+    height: 3px;
+    width: 70px;
+}
+.ExPartTwoRight h3{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 11px 0;
+    text-transform: capitalize;
+}
+.ExPartTwoRight p{
+    line-height: 24px;
+}
+
+/*==========================
+/ExpreienceSec Section End here
+=============================*/
+
+/*==========================
+/SkillSec Section End here
+=============================*/
+.SkillSec{
+    background: rgba(0, 0, 0, 0) url("../images/bg4.jpg") no-repeat scroll center center / cover ;
+    color: #fff;
+    height: 100%;
+    overflow: hidden;
+    padding: 0 0 97px;
+    position: relative;
+    width: 100%;
+}
+.singleSkill{
+    height: 100%;
+    padding: 40px 0 0;
+    width: 100%;
+}
+.skill{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+.percent{
+    bottom: 0;
+    font-family: "Open Sans",sans-serif;
+    font-size: 32px;
+    height: 40px;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 61px;
+    width: 150px;
+}
+.percent span{
+    color: #f7465b;
+    margin-top: 10px;
+}
+.SkillCon h2{
+    font-size: 30px;
+    padding: 24px 0 11px;
+    text-transform: uppercase;
+}
+.SkillCon p{
+    padding: 0 37px;
+}
+.SingleSkillRight{
+    padding: 92px 0 0;
+}
+/*==========================
+/SkillSec Section End here
+=============================*/
+
+/*==========================
+/MyWorkSec Section Start here
+=============================*/
+.MyWorkSec{
+    width: 100%;
+    height: 100%;
+}
+.MixMenu{
+    width: 100%;
+    height: 100%;
+    padding: 0 0 10px;
+}
+.tooltip-inner {
+    max-width: 200px;
+    padding: 3px 8px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f00;
+    border-radius: 4px;
+}
+.tooltip.top .tooltip-arrow {
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px 5px 0;
+    border-top-color: #f00;
+}
+.MixMenu ul li{
+    border: 1px solid #f00;
+    color: #000;
+    display: inline-block;
+    margin-left: 10px;
+    padding: 11px 26px 12px 25px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    transition: .5s;
+}
+.MixMenu ul li:first-child{
+    margin-left: 0;
+}
+.MixMenu ul li.active,.MixMenu ul li:hover{
+    background: #F7465B;
+    color: #fff;
+}
+#Grid .mix{
+    display: none;
+}
+.singleMix{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.MixImage{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.MixImage img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .8s;
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: .8s;
+}
+.OverlayCon{
+    bottom: 0;
+    height: auto;
+    left: 0;
+    padding: 0 0 0 15px;
+    position: absolute;
+    text-transform: uppercase;
+    transition: all 0.8s ease 0s;
+    width: 100%;
+}
+.OverlayCon h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    color: #fff;
+}
+.OverlayCon p{
+    font-size: 14px;
+    color: #fff;
+}
+.singleMix:hover .MixImage img{
+    transform: rotate(1deg) scale(1);
+}
+.singleMix:hover .overlay{
+    visibility: visible;
+    opacity: 1;
+} 
+.singleMix:hover .OverlayCon{
+    bottom: 37px;
+}
+
+/*Modal is here*/
+.CustomModals{
+    width: 100%;
+    height: 100%;
+}
+.ModalHead{}
+.ModalHead h4{
+    padding: 6px 0;
+    text-transform: uppercase;
+}
+.ModalHead button.close {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #000;
+    cursor: pointer;
+    padding: 9px 14px;
+}
+.ModalBodyContent{
+    width: 100%;
+    height: 100%;
+}
+.ModalImage{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #E5E5E5;
+    padding: 5px;
+    border-radius: 2px;
+}
+.ModalImage img{
+    width: 100%;
+    height: 100%;
+}
+.ModalContent{
+    width: 100%;
+    height: 100%;
+}
+.ModalContent h2{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 18px 0 10px;
+    text-transform: uppercase;
+}
+.ModalContent span{
+    background: #f7465b none repeat scroll 0 0;
+    display: block;
+    height: 3px;
+    width: 70px;
+}
+.ModalContent h5{
+    font-size: 11px;
+    font-weight: 300;
+    padding: 16px 0 28px;
+    text-transform: uppercase;
+}
+.ModalContent p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 0 82px 0 0;
+}
+.ModalBtn{
+    padding: 20px 0 10px;
+}
+.ModalBtn a{
+    border: 1px solid #f00;
+    color: #333;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 9px 26px 12px 25px;
+    text-transform: uppercase;
+    transition: all 0.8s ease 0s;
+}
+.ModalBtnOne{
+    margin-right: 20px;
+}
+.ModalBtnOne:hover{
+    background: #f00;
+    color: #fff;
+}
+.ModalBtnTwo:hover{
+    background: #000;
+    color: #fff;
+}
+/*Modal End here*/
+/*==========================
+/MyWorkSec Section End here
+=============================*/
+
+/*==========================
+/InterestSec Section Start here
+=============================*/
+.InterestSec{
+    width: 100%;
+    height: 100%;
+    padding: 0 0 80px;
+}
+.InterestComm p{
+    padding-bottom: 32px;
+}
+.InterestBtn a{
+    border: 1px solid #f00;
+    color: #000;
+    display: inline-block;
+    font-size: 16px;
+    padding: 11px 26px 12px 25px;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+}
+.InterestBtn a:hover{
+    background: #333;
+    color: #fff;
+    border-color: #333;
+}
+/*==========================
+/InterestSec Section End here
+=============================*/
+
+/*==========================
+/ClientReview Section Start here
+=============================*/
+.ClientReview{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background: url(../images/bg5.jpg) no-repeat center center / cover;
+    color: #fff;
+    padding: 0 0 80px;
+}
+.Review p{
+    padding-bottom: 112px;
+}
+.ReviewSlider{}
+.ReviewSlider img{
+    border-radius: 50%;
+    width: auto;
+    height: auto;
+}
+.ReviewSlider h2{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 0 19px;
+    text-transform: uppercase;
+}
+.ReviewSlider p{
+    font-size: 14px;
+    line-height: 25px;
+    padding: 0 74px 9px;
+}
+.ClientReview .owl-theme .owl-controls .owl-buttons div {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #f7465b;
+    border-radius: 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 7px;
+    opacity: 1;
+    padding: 7px 15px;
+    transition: .8s;
+}
+.ClientReview .owl-theme .owl-controls .owl-buttons div:hover{
+    background: #f7465b;
+}
+/*==========================
+/ClientReview Section End here
+=============================*/
+
+/*==========================
+/ClientSec Section End here
+=============================*/
+.ClientSec{
+    height: 100%;
+    overflow: hidden;
+    padding: 0 0 80px;
+    position: relative;
+    width: 100%;
+}
+.ClientImg{
+    border: 1px solid #333;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    padding: 18px 18px 18px 17px;
+    transition: all 0.4s ease 0s;
+}
+.FixFive{
+    margin-top: 40px;
+}
+.ClientImg img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.ClientImg:hover{
+    opacity: 1;
+}
+/*==========================
+/ClientSec Section End here
+=============================*/
+
+/*==========================
+/ContactSec Section End here
+=============================*/
+.ContactSec{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    background: url(../images/bg6.jpg) no-repeat center center / cover;
+}
+.SingleConLeft{
+    height: 190px;
+    overflow: hidden;
+    padding: 40px 0 0;
+    width: 100%;
+    -webkit-transition:all 500ms ease;
+    -moz-transition:all 500ms ease;
+    -ms-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+}
+.SingleConLeft i{
+    background: #f7465b none repeat scroll 0 0;
+    border-radius: 50%;
+    font-size: 30px;
+    height: 60px;
+    padding: 13px;
+    text-align: center;
+    width: 60px;
+    -webkit-transition:all 500ms ease;
+    -moz-transition:all 600ms ease;
+    -ms-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 600ms ease;
+}
+.SingleConLeft h2{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 0 11px;
+    text-transform: uppercase;
+}
+.SingleConLeft p{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 30px;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition:all 200ms ease;
+    -moz-transition:all 200ms ease;
+    -ms-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 200ms ease;
+}
+
+.SingleConLeft:hover{
+    background: #f7465b;
+    padding: 10px 0 0;
+}
+.SingleConLeft:hover p{
+    visibility: visible;
+    opacity: 1;
+}
+.SingleConLeft:hover i{
+    background: #fff;
+    color: #f7465b;
+}
+.ContactForm{
+    width: 100%;
+    height: 100%;
+}
+.InputGroup{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.InputFast{
+    background: #47494a none repeat scroll 0 0;
+    border: 0 none;
+    height: auto;
+    opacity: 0.7;
+    padding: 16px 0 15px 52px;
+    width: 100%;
+    border-radius: 10px;
+}
+.InputMsg{
+    height: 130px;
+    resize: none;
+}
+.InputGroup i{
+    background: #5f6164 none repeat scroll 0 0;
+    font-size: 20px;
+    left: 0;
+    padding: 14px 12px 17px;
+    position: absolute;
+    top: 0;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.InputGFast i{
+    padding: 14px 14px 17px;
+}
+.InputMR15{
+    margin-top: 15px;
+}
+.InputGroupMes{
+    margin-top: 15px;
+}
+.InputGroupMes i{
+    padding: 53px 12px 57px;
+}
+.FormBtn{
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #b1acae;
+    display: block;
+    padding: 14px 0;
+    text-transform: uppercase;
+    width: 100%;
+    -webkit-transition:all 500ms ease;
+    -moz-transition:all 500ms ease;
+    -ms-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+    border-radius: 10px;
+}
+.FormBtn:hover{
+    background: #b1acae;
+    opacity: .7;
+    color: #f7465b;
+}
+.ConForm{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.ConForm p{
+    padding: 10px 0 26px;
+}
+.ConForm::after{
+    display: none;
+}
+.social{
+    height: 100%;
+    padding: 81px 0 78px;
+    width: 100%;
+}
+.social h2{
+    font-size: 18px;
+    padding-bottom: 21px;
+    text-transform: uppercase;
+}
+.CMs{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background: #555555;
+    color: #fff;
+    font-size: 18px;
+    -webkit-transition:all 500ms ease;
+    -moz-transition:all 500ms ease;
+    -ms-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+}
+.CMs:hover{
+    color: #fff;
+    transform: rotate(360deg);
+}
+.fac:hover{
+    background: #4867AA;
+}
+.twi:hover{
+    background: #1CB7EB;
+}
+.git:hover{
+    background: #000;
+}
+.cod:hover{
+    background: #000;
+}
+.link:hover{
+    background: #1686B0;
+}
+.drib:hover{
+    background: #E74D89;
+}
+.belan:hover{
+    background: #226BD2;
+}
+.CMs i{
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 32px;
+    width: 100%;
+    -webkit-transition:all 500ms ease;
+    -moz-transition:all 500ms ease;
+    -ms-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+}
+/*==========================
+/ContactSec Section End here
+=============================*/
+/*==========================
+/MapSec Section Start here
+=============================*/
+.MapSec{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+#map{
+    width: 100%;
+    height: 400px;
+}
+/*==========================
+/MapSec Section End here
+=============================*/
+
+
+
