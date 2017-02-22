@@ -81,7 +81,7 @@ $(document).ready(function() {
 
     $(function() {
         $(".Typeing").typed({
-            strings: ["Rasel...", "Designer...", "Developer..."],
+            strings: ["shagor...", "Designer...", "Developer..."],
             typeSpeed: 80,
             loop: true,
             stringsElement: null,
