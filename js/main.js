@@ -81,15 +81,15 @@ $(document).ready(function() {
 
     $(function() {
         $(".Typeing").typed({
-            strings: ["Shagor.", "Designer", "Developer"],
+            strings: ["Rasel...", "Designer...", "Developer..."],
             typeSpeed: 80,
             loop: true,
             stringsElement: null,
-            cursorChar: "",
+            cursorChar: "|",
             backDelay: 1000
         });
 
-    });
+});
 
     /*Typed Carosul end*/
     /*MobileMenu Start Here*/
