@@ -113,7 +113,7 @@
 }
 .HBtn{
     background: #CC6699 none repeat scroll 0 0;
-    color: #fff;
+    color: #FFF;
     font-size: 24px;
     font-weight: 400;
     letter-spacing: 0;
@@ -124,7 +124,7 @@
 }
 .HBtn:hover{
     color: #CC6699;
-    background: #fff;
+    background: #FFFFFF;
 }
 .HBtnTwo{
     margin-left: 19px;
